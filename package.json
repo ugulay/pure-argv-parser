@@ -4,7 +4,7 @@
   "description": "An ultra-lightweight command-line argument parser for Node.js with no external dependencies.",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js login --user=testuser -v"
   },
   "repository": {
     "type": "git",

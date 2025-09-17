@@ -5,9 +5,10 @@
  * @param {string[]} argv - Opsiyonel olarak process.argv yerine kullanılacak dizi.
  * @returns {{commands: string[], options: Record<string, any>}}
  */
-function parseArgs(argv = process.argv) {
-    // İlk iki argümanı atla (node yolu ve script yolu)
-    const args = argv.slice(2);
+function parseArgs(argv) {
+    // Eğer argüman verilmemişse, process.argv'den al ve ilk ikisini atla.
+    // Eğer argüman verilmişse, onu doğrudan kullan (testler için).
+    const args = argv === undefined ? process.argv.slice(2) : argv;
 
     const result = {
         commands: [], // Komutlar ve pozisyonel argümanlar için (örn: git push origin main)
