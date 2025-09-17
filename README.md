@@ -10,7 +10,7 @@ npm install pure-argv-parser
 
 ## Example Usage
 ```javascript
-const parseArgs = require('benim-argv-parser');
+const parseArgs = require('pure-argv-parser');
 const args = parseArgs();
 console.log(args);
 ```
@@ -18,7 +18,7 @@ console.log(args);
 ## Supported Formats
 - --key=value
 - --key value
-- -k value (kısa opsiyon)
+- -k value (short option)
 - --flag (boolean)
-- -f (kısa boolean flag)
-- command (pozisyonel argümanlar)
+- -f (short boolean flag)
+- command (positional args)
