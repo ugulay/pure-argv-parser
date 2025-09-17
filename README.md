@@ -5,7 +5,7 @@ An ultra-lightweight command-line argument parser for Node.js with no external d
 ## Installation
 
 ```bash
-npm install benim-argv-parser
+npm install pure-argv-parser
 ```
 
 ## Example Usage
