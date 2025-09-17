@@ -1,0 +1,18 @@
+{
+  "name": "pure-argv-parser",
+  "version": "1.0.0",
+  "description": "An ultra-lightweight command-line argument parser for Node.js with no external dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js" 
+  },
+  "keywords": [
+    "argv",
+    "parser",
+    "arguments",
+    "cli",
+    "command-line"
+  ],
+  "author": "Uğur Gülay <ugurgulay@gmail.com>",
+  "license": "MIT"
+}
